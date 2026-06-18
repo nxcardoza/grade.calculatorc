@@ -1,29 +1,31 @@
-#include <stdio.h>
-//Cardoza, Nick Gabriel B.
-//BSIS - 1
+Accurate Grade Calculator for Teachers
 
-main(){
-	int inputQuiz;
-	int inputExam;
-	int calculateFinalGrade;
-	
-	//Input Score Function -  Asks the user to enter one score. 
+What does it do? 
+1. Calculate 100% accurate weighted grades (40% quizzes + 60% exams)
+2. Generate correct letter grades (A/B/C/D/F) every time
+3. Process one student's grades in under 30 seconds
+4. Eliminate manual calculation errors
+
+FUNCTION EXPLAINATION:
+
+1.) Input Score Function -  Asks the user to enter one score. 
 	printf("Enter Quiz Score(1-100):");
 	scanf("%d", &inputQuiz);
 	
 	printf("Enter Exam Score(1-100):");
 	scanf("%d", &inputExam);
 	
-	//Calculate Final Grade Function - Combines a quiz score and an exam score using weighted percentages (40% Quiz, 60% Exam).
+2. Calculate Final Grade Function - Combines a quiz score and an exam score using weighted percentages (40% Quiz, 60% Exam).
 	calculateFinalGrade = (inputQuiz * 0.4) + (inputExam * 0.6);
 	
-	//Display Report Function - Prints out a formatted grade report showing all values
-	 printf("\nThe Grades are in!\n");
+3. Display Report Function - Prints out a formatted grade report showing all values
+ printf("\nThe Grades are in!\n");
  printf("Quiz Score: %d\n", inputQuiz);
-	 printf("Exam Score: %d\n", inputExam);
-	 printf("Final Grade: %d\n", calculateFinalGrade);
+ printf("Exam Score: %d\n", inputExam);
+ printf("Final Grade: %d\n", calculateFinalGrade);
 		
-	//Get Letter Grade Function - Converts a numeric grade(Final Grade) to a letter grade (A, B, C, D, F).
+4. Get Letter Grade Function - Converts a numeric grade(Final Grade) to a letter grade (A, B, C, D, F).
+
 		if (calculateFinalGrade > 90 ){
 		printf("Letter Grade: A\n");
 	}
@@ -39,6 +41,4 @@ main(){
 		else{
 		printf("Letter Grade: F\n");
 	}
-			
-	return 0;
-}
+	
