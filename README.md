@@ -2,8 +2,9 @@ Accurate Grade Calculator for Teachers
 
 What does it do?
 
-The teacher runs the program and enters a quiz score (1-100)
-Program asks for an exam score (1-100)
+The teacher runs the program and enters:
+an quiz score (1-100)
+an exam score (1-100)
 
 Then the program calculates and displays:
 The Quiz Score: 
