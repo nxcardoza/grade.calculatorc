@@ -3,8 +3,8 @@ Accurate Grade Calculator for Teachers
 What does it do?
 
 The teacher runs the program and enters:
-an quiz score (1-100)
-an exam score (1-100)
+a quiz score (1-100)
+a exam score (1-100)
 
 Then the program calculates and displays:
 The Quiz Score: 
@@ -12,7 +12,7 @@ The Exam Score:
 The Final Grade: 
 The Letter Grade: 
 
-The teacher can confidently report accurate grade to student!
+The teacher can confidently report an accurate grade to the student!
 
 Example:
 Quiz Score: 85.00
