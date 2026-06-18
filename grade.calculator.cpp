@@ -3,37 +3,37 @@
 //BSIS - 1
 
 main(){
-	int quiz;
-	int exam;
-	int weight;
+	int inputQuiz;
+	int inputExam;
+	int calculateFinalGrade;
 	
 	//Input Score Function
 	printf("Enter Quiz Score(1-100):");
-	scanf("%d", &quiz);
+	scanf("%d", &inputQuiz);
 	
-	printf("Enter Exam Score(1-100): ");
-	scanf("%d", &exam);
+	printf("Enter Exam Score(1-100):");
+	scanf("%d", &inputExam);
 	
 	//Calculate Final Grade Function
-	weight = (quiz * 0.4) + (exam * 0.6);
+	calculateFinalGrade = (inputQuiz * 0.4) + (inputExam * 0.6);
 	
 	//Display Report Function
 	 printf("\nThe Grades are in!\n");
- printf("Quiz Score: %d\n", quiz);
-	 printf("Exam Score: %d\n", exam);
-	 printf("Final Grade: %d\n", weight);
+ printf("Quiz Score: %d\n", inputQuiz);
+	 printf("Exam Score: %d\n", inputExam);
+	 printf("Final Grade: %d\n", calculateFinalGrade);
 		
 	//Get Letter Grade Function
-		if (weight > 90 ){
+		if (calculateFinalGrade > 90 ){
 		printf("Letter Grade: A\n");
 	}
-		else if (weight > 80 && weight <= 89){
+		else if (calculateFinalGrade > 80 && calculateFinalGrade <= 89){
 		printf("Letter Grade: B\n");
 	}
-		else if (weight > 70 && weight <= 79){
+		else if (calculateFinalGrade > 70 && calculateFinalGrade <= 79){
 		printf("Letter Grade: C\n");
 	}
-		else if (weight > 60 && weight <= 69){
+		else if (calculateFinalGrade > 60 && calculateFinalGrade <= 69){
 		printf("Letter Grade: D\n");
 	}
 		else{
